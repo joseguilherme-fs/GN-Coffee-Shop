@@ -129,14 +129,14 @@ export default function Header() {
       >
         <button
           id="fechar-button"
-          className="absolute top-0 right-0 transform translate-y-1/2 mr-3 px-2 py-1 text-white text-sm"
+          className="absolute top-0 right-0 transform translate-y-1/2 mr-3 pl-2 sm:py-1 text-white text-sm"
           onClick={closeAlert} // Adicione um evento de clique para fechar o alerta
         >
-          <i className="fa-solid fa-xmark" />
+          <i className="text-xs sm:text-sm fa-solid fa-xmark hover:text-black" />
         </button>
-        <p className="text-base">
-          <i className="fa-solid fa-circle-exclamation text-lg mr-3" />
-          Você só pode adicionar 10 produtos ao carrinho
+        <p className="text-sm sm:text-base">
+          <i className="fa-solid fa-circle-exclamation text-xs sm:text-lg mr-3" />
+          Você só pode adicionar 10 produtos ao carrinho 
         </p>
       </div>
 
